@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace RecursionIndexOfChar
 {
@@ -53,7 +53,7 @@ namespace RecursionIndexOfChar
 
             if (startIndex + count > str.Length)
             {
-                throw new ArgumentOutOfRangeException(nameof(count), "startIndex + count > str.Length + 1");
+                throw new ArgumentOutOfRangeException(nameof(count), "startIndex + count > str.Length");
             }
 
             int lastCharIndex = startIndex + count - 1;
